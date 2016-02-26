@@ -1,0 +1,14 @@
+tcdashboard:
+  image: frvi/dashing
+  ports:
+    - "8080:3030"
+  volumes:
+    - dashboards:/dashboards
+    - jobs:/jobs
+    - widgets:/widgets
+    - config:/config
+  environment:
+    - GEMS=teamcity-ruby-client
+    - TC_SERVER_URL
+    - TC_USER
+    - TC_PASSWORD
