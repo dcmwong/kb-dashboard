@@ -85,16 +85,11 @@ $background: #444;
     margin-bottom: 5px;
   }
 
-  .project{
-    .project-name{
-
-    }
-  }
-  .builds{
+  .build{
     p{
       padding: 10px;
     }
-    li{
+    div{
       background-color: $background-no-status-color;
     }
     margin-bottom: 5px;
@@ -108,10 +103,13 @@ $background: #444;
     .build-type-name{
       font-size: 20px;
     }
+    .project-name{
+      font-size: 20px;
+    }
   }
 
   .updated-at {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.3);
   }
 
   .more-info {

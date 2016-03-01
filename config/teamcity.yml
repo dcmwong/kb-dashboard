@@ -1,3 +1,8 @@
 repositories:
-  teamcity-build: KbQs
-  teamcity-deploy: KbQsDeploy
+  discoverytool-build: KbQs_BuildDiscoveryTool_Dockerbuild
+  contenteditor-build: KbQs_ContentEditor_MasterBranchBuildAndPublish
+  reverseproxy-build: KbQs_ReverseProxy_MasterBranchBuildAndPublish
+  git2prov-build: KbQs_Git2Prov_BuildAndNuget
+  ac-tests: Deployment_KbQsTest_AcceptanceTests
+  deploy-qa: Deployment_KbQsTest_Test
+  deploy-live: Deployment_KbQsTest_DeployProjectToLive
